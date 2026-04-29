@@ -1,0 +1,16 @@
+# Batch URL file for content-ingestion.
+# Lines starting with # are comments. Blank lines are ignored.
+# One URL or file path per line. Mixing sources is allowed.
+
+# Web articles
+https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
+
+# YouTube videos
+https://youtube.com/watch?v=zVEb19AwkqM
+
+# Local files (absolute or ~-expanded paths)
+~/Downloads/some-paper.pdf
+
+# Usage:
+#   npx tsx ~/.daemion/skills/content-ingestion/scripts/ingest.ts --file batch-urls.txt
